@@ -1,0 +1,33 @@
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: white;
+}
+
+.cabecera img {
+    height: 50px; /* Ajusta según sea necesario */
+}
+
+/* Estilos del menú */
+.menu ul {
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px; /* Ajusta según sea necesario */
+}
